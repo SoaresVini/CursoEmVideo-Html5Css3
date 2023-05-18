@@ -1,5 +1,10 @@
 mkdir - Cria pasta 
 cd - abre pasta 
+
+cd .. - pasta anterior
+
+git push -u origin main
+
 Terminal - Ctrl + Alt + T
 
 ../ pasta anterior
