@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(230, 230, 123);
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: justify;
+    font-size: 20px;
+}
+
+h1{
+    color: maroon;
+    background-color: yellow;
+}
+
+h2{
+    color: darkred;
+    background-color: yellow;
+}

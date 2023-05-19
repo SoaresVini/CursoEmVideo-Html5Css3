@@ -55,6 +55,7 @@ World Wide Web rede dentro da Internet focado em HTTP
 
 7- Como a Internet funciona ?
 
+Transmições de rede feitas pela internet, ainda são em sua maioria por cabos submarinos
 
 O computador funciona em :
 
@@ -83,7 +84,6 @@ Segue a rota mais rápida e menos congestionada e cada parte do pacote pode ir p
 Cliente servidor
 
 8- O que é domínio e hospedagem ?
-
 
 Quando está hospedado em um servidor hospedado na internet todos os computadores podem acessá-lo
 
@@ -160,7 +160,10 @@ Aula 4
     https://br.freepik.com/
 
     PNG - PERMITE TRANSPARENTE - menor distroçao
+    PNG - Portable Network Graphic
+
     JPEG - COMPACTAÇAO - maior distorçao ao aproximar
+    JPEG - Joint Photographic Experts Group
 
     Cuidar com o tamnho do arquivo 
 
@@ -202,6 +205,7 @@ Aula 10,11,12
     en - enfase semantica
 
     b - negrito em forma 
+    
     strong - destacar sememantica 
 -----------------------------------------------
     mark - marcador amarelo - sem estilização
@@ -326,6 +330,25 @@ Tipos de video:
 
 ==================Inicio do CSS=====================
 
+Css linguagem de estilização
+
+Estilo inline - na mesma linha do HTMl - não é muito utlizado por nãoser pratico e dificultar a manutenção
+
+Estilo Internos - no mesmo documento, porem é declarado na teg Style dentro do head e fica separado das tags HTML - mais pratico - melhor manutenção
+
+Ter que repitir em outras telas, caso tenha q usar o mesmo estilo, as informações ficam no final do documento e vc é obrigado a passar por toda a CSS até chegar nele.
+
+Estilos externos - Arquivo separado no HTML - e possui as Mesmas qualidades do Interno e corrigi seus "problemas" 
+
+Posso usar mais de um arquivo Css no mesmo projeto
+
+Muito mais versátil
 
 
+
+CSS - Cascading Style Sheet, ou Folha de Estilo em Cascatas
+
+
+
+Criador do TCP/IP - Robert Kahn e Vint Cerf
 https://www.youtube.com/watch?v=TNQsmPf24go
