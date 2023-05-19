@@ -328,27 +328,5 @@ Tipos de video:
 
  maior buscador do mundo: Google - Youtube
 
-==================Inicio do CSS=====================
-
-Css linguagem de estilização
-
-Estilo inline - na mesma linha do HTMl - não é muito utlizado por nãoser pratico e dificultar a manutenção
-
-Estilo Internos - no mesmo documento, porem é declarado na teg Style dentro do head e fica separado das tags HTML - mais pratico - melhor manutenção
-
-Ter que repitir em outras telas, caso tenha q usar o mesmo estilo, as informações ficam no final do documento e vc é obrigado a passar por toda a CSS até chegar nele.
-
-Estilos externos - Arquivo separado no HTML - e possui as Mesmas qualidades do Interno e corrigi seus "problemas" 
-
-Posso usar mais de um arquivo Css no mesmo projeto
-
-Muito mais versátil
-
-
-
-CSS - Cascading Style Sheet, ou Folha de Estilo em Cascatas
-
-
-
 Criador do TCP/IP - Robert Kahn e Vint Cerf
 https://www.youtube.com/watch?v=TNQsmPf24go
