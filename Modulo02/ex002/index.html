@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{  /*seletor Global*/
+            height: 100vh;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image: linear-gradient(to right,#7110FF #B500F2 #FF00C1 #FF0088 #FF6301#FFC700);
+            background-attachment: fixed;
+
+            
+        }
+        div{
+            
+            background-image: linear-gradient(to right #7110FF 30% #B500F2  #FFC700);
+
+            height: 100px;
+            width: 100px;
+
+            border: 2px solid black;
+
+        }
+    </style>
+
+</head>
+<body>
+
+    <div></div>
+
+</body>
+</html>

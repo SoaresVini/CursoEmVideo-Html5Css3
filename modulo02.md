@@ -110,6 +110,233 @@ Cores em Quadrado - cor principal - pula duas - pega cor - pula duas - pega cor 
 
 cores tetradicas - duas principais e o contrario do circulo 
 
+formar as palhetas dessa forma 
+
+
+Aula 4
+
+background-image: Gradiente - adiciona a direção com o numero+ deg ou to + direção + color 
+
+Após a cor, pode ser adicionado uma porcentagem de quanto aquela cor vai representar no espaço a qual foi estipulada
+
+
+CSS 
+
+Declarações - propiedades e valores
+
+background-attachment: fixed; - não permite o site desser na barra de rolagem
+
+background-color: color ; difine a cor de fundo, seja do site ou de um box
+
+color : color ; define a cor de um texto
+
+border-radius: 10px; arredonda a borda de uma div 
+
+border: px solid color ; espessura tipo e cor da borda de um item
+
+box-shadow: 5px 5px 15px rgba(67, 36, 92, 0.637); De os px direita ou esquerda + para baixo e o espalhamento + color para difinição de uma sobra 
+
+padding: 10px; - distancia para a borda da box 
+
+margin: auto; - margin entre os componentes 
+auto centraliza
+
+width - heigth - tamanho
+
+Tag HTML
+
+main - div especial que fala que esse é meu codigo principal
+
+
+Tipografia-----------------
+
+monges copistas que escreviam livros
+
+Gutenberg - prensa mecanica de tipos moveis - desenhos das letras 
+
+Estudo de escrever coisas em telas/papeis
+
+desenho de letras 
+
+Letras passam sentimentos igual as cores 
+
+Aula 6 - Tipografia - PULEI
+
+Fontes ----------------------
+
+font-family: - font do Site
+
+Vai tentar aplicar umas das 3 fontes passadas no CSS
+
+Se deixar só serif vai aplicar um a fonte aleatoria com serifa 
+
+e deixar só sans-serif vai aplicar uma fonte aleatoria sans-serif
+
+Medidas Absolutas de fontes:
+cm, mm, in, px, pt, pc
+
+Medidas Relativas:
+em, ex, rem, vw, vh, %
+
+px, em - são as recomendadas
+
+16px - tamanho padrão = 1em
+
+Usar "em" é melhor 
+
+Algumas fontes não possuem isso 
+
+font-weight: ; peso das fontes : tem numeração de 100 a 900 lighetr normal bold bolder 
+
+font-Style ; italic ou normal 
+
+font-decoraction - tira algum fru fru da tag ou adiciona, tipo o traço por baixo do link 
+
+shorthand font
+    
+font-style: font-weight: font-size: font-family:
+
+Impor de fontes diferente sdireto pelo Google, usando o Google fonts
+
+O import e feito logo no começo do style e não pode estar em um seletor
+
+usar entre 3 á 4 fontes
+
+ @font-face {
+            font-family: ;
+            src: url("Filxgirl.TTF") format(truetype);
+        }
+
+importador por fora do google fontes tem que fazer o donwload e tem varios tipos
+
+opentype - otf
+truetype - ttf
+embedded-opentype
+truetype-aat(Apple Advanced Typography)
+svg
+
+tem como pegar fontes por imagens caso eu precise
+
+font-family: - font do Site
+
+Vai tentar aplicar umas das 3 fontes passadas no CSS
+
+text-shadow: rgba(131, 88, 19, 0.698); - sombra d eum texto
+
+text-align: center; alinhamento de texto 
+
+text-indent: 20px; - espaço antes de começar o texto
+
+------------------
+seletores 
+
+* seletor Global 
+
+HTML Tag - CSS Tag
+HTML Class - CSS .   (sobrepõe tag)
+HTML id - CSS #      (sobrepõe class/Tag)
+
+
+Diferença entre id e Class
+
+id eu só posso usar em uma tag d documento, se dor em mais eu uso um class
+
+Ordem :
+Tag 
+Class
+Id
+
+Pseudo Classes  : 
+
+Estado da tag
+
+ex. hover - passa o mouse por cima
+ex. visited - modo como o link vai ficra após ser visitado
+ex.  active - quando a um click
+
+> pai de outra tag 
+
+Pseudo elementos ::
+
+mexe no conteudo dos elementos
+
+before - antes do elemneto 
+
+after - depois do elemneto 
+
+
+____________procura mais depois_____________
+
+Ajudinha:
+
+tag+*quantas vc precisar + .(Class) ou #(id) + >  outra tag que fique por dentro + {Conteudo}
+
+
+Modelo de Caixas
+
+Os elementos HTMl são varias caixas e essas caixas podem ter outras dentro - aninhamento 
+
+Elementos da caixa : 
+
+height - altura 
+Width  - largura
+border - borda 
+padding  - espaço que afasta a borda do conteudo - preenchimento acolchoamento
+margin - espaço entre conteudos 
+outline - traçado ao redor da borda
+
+Caixas do tipo Box 
+
+Sempre uma linha nova
+largura total da tela 
+
+
+Caixas do tipo Inline 
+
+- span
+
+vai ir para o lado 
+não quebra linha 
+usa o espaço que precisa
+e continua do lado, não importa onde a linha esteja
+
+
+CSS
+
+border px forma color 
+
+pontilhada, solida e dupla
+
+padding: top rigth botton left 
+
+da o espaço em todos os lados ou deixar para um ou outro caso for melhro
+
+margin: top rigth botton left 
+
+da o espaço em todos os lados entre os conteudos
+
+Quando botar dois valores o primeiro é de cima/baixo e o segundo para direita/esquerda
+
+margin: auto - centraliza
+
+outline - px forma color 
+borda da borda
+
+__________Groupin Tags________
+
+
+header - cabeçalho
+
+main - Conteudo
+
+footer - Rodapé
+
+
+
+
+
+
+
 
 
 
