@@ -130,11 +130,22 @@ background-color: color ; difine a cor de fundo, seja do site ou de um box
 
 color : color ; define a cor de um texto
 
-border-radius: 10px; arredonda a borda de uma div 
+border-radius: 10px; arredonda a borda de um elemento
 
 border: px solid color ; espessura tipo e cor da borda de um item
 
-box-shadow: 5px 5px 15px rgba(67, 36, 92, 0.637); De os px direita ou esquerda + para baixo e o espalhamento + color para difinição de uma sobra 
+bordar com IMAGENS:
+
+border: 20px solid transparent;
+border-image-source: url(/Img/borda.png); - Link da imagens
+border-image-slice: 60; - Tamanho
+border-image-repeat:repeat ; 
+
+border-image-source: url(/Img/borda.png) 60 repeat;
+
+box-shadow: 5px 5px 15px rgba(67, 36, 92, 0.637); De os px direita ou esquerda + para baixo e o espalhamento + alcanse+color para difinição de uma sobra 
+
+se adicionar o inset,  a sobre fica interna
 
 padding: 10px; - distancia para a borda da box 
 
@@ -324,10 +335,29 @@ borda da borda
 
 __________Groupin Tags________
 
+div - caixo do tipo box level 
+
+Span - inline level
+
+Divs semanticas
+
+Sem ordem expecifica, posso usar qualquer tag dentro de outra sempre q eu precisar
+
+
 
 header - cabeçalho
+    nav - links
 
 main - Conteudo
+
+section - seçoes - partes de um documento 
+
+article - artigos - conteudo que não precisa de outro para fazer sentido
+
+aside - superficial relacionado ao conteudo do seu entorno, ma spoderia ser considerado sperado do conteudo
+
+usado em explicações laterais, como a definição de um glossário; conteúdo vagamente relacionado, como avisos; a biografia do autor; ou, em aplicações web, informações de perfil ou links de blogs relacionados.
+
 
 footer - Rodapé
 
