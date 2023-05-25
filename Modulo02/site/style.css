@@ -29,6 +29,14 @@ header > nav{
     height: 25px;
 }
 
+header > h1 {
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #ffffff; 
+}
+
 nav > a{
     display: flex;
     justify-content: center;
@@ -60,7 +68,7 @@ section{
     background-color: white;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.205);
     padding: 10px;
-    width: 500px;
+    width: 700px;
     
 }
 
@@ -68,7 +76,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 700px;
     height: 320px;
     padding: 10px;
     background-color: #138141;
@@ -80,7 +88,7 @@ section{
 }
 
 .image > img{
-    width: 500px;
+    width: 700px;
     height: 200px;
 }
 
@@ -142,12 +150,11 @@ h2{
     color: #0b572b;
 }
 
-h1{
+section > h1{
     padding-left: 10px;
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
-    color: #ffffff; 
+    font-family: 'android';
+    color: #0b572b;
 }
 
 #text{
@@ -165,15 +172,4 @@ h1{
 #text > a > img{
     width: 100px;
     height: 100px;
-}
-
-#zueira{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-#zueira > h1{
-    color: black;
 }
