@@ -1,12 +1,20 @@
+@font-face {
+    font-family: "android";
+    src: url("idroid.otf") format(opentype);
+}
+
 body{
     background-color: #64ee9e;
     margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
 
 header{
     background-image: linear-gradient(to bottom,#35e27d ,#1cac58 ,#138141 , #0b572b);
     padding: 10px;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.205);
+    color: white;
 }
 
 header > article {
@@ -30,7 +38,6 @@ nav > a{
     margin-right: 10px;
     padding: 5px;
     height: 30px;
-    
     color: #91e7b5;
 }
 
@@ -47,19 +54,126 @@ main{
     flex-direction: column;
 }
 
-#historia{
+section{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.205);
     padding: 10px;
     width: 500px;
+    
 }
-#imagem{
+
+#video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 500px;
-    height: 500px;
+    height: 320px;
+    padding: 10px;
     background-color: #138141;
 }
 
+.image{
+    display: flex;
+    justify-content: center;
+}
 
+.image > img{
+    width: 500px;
+    height: 200px;
+}
 
+#aprendendo{
+    border-radius: 0px 0px 20px 20px;
+}
 
+#aprendendo > article{
+    height: 450px;
+    padding: 10px;
+    background-color: #99e6b9;
+    padding: 0px;
+    border-radius: 20px ;
+}
 
+#aprendendo > article > h1 {
+    border-radius: 20px 20px 0 0 ;
+    background-color: #1cac58;
+    margin: 0px;
+    padding: 10px;
+}
+
+p{
+    text-indent: 30px;
+    padding: 5px;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#138141;
+    height: 30px; 
+    margin-top:20px ;
+    color: white;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #0b572b;
+    font-weight: bold;
+}
+
+.negrito{
+    color: #0b572b;
+}
+
+h2{
+    background-image: linear-gradient(to right,#1cac585d , rgba(255, 255, 255, 0.459));
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'android';
+    color: #0b572b;
+}
+
+h1{
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #ffffff; 
+}
+
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin: 20px;
+}
+
+#text > a > img{
+    width: 100px;
+    height: 100px;
+}
+
+#zueira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#zueira > h1{
+    color: black;
+}
