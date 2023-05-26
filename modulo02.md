@@ -362,6 +362,13 @@ usado em explicações laterais, como a definição de um glossário; conteúdo 
 footer - Rodapé
 
 
+Css 
+
+line-height: 1em; - sem espaçõ entre as linhas de um p
+
+
+Montar o site do figma antes de passar para o html
+
 
 
 
