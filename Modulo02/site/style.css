@@ -27,7 +27,9 @@ body{
 }
 
 
-
+a.externo::after{
+    content : ' 🔗';
+}
 
 header{
     display: flex;
@@ -133,6 +135,7 @@ aside > h3 {
     border-radius: 20px 20px 0 0 ;
     background-color: var(--cor2);
     padding: 10px;
+    margin: -10px;
 }
 
 p{
@@ -237,3 +240,11 @@ footer a:hover{
     cursor: pointer;
 }
 
+div.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor3);
+    margin: 0px -10px 30px -10px;
+    padding: 10px;
+}
